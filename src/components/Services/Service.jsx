@@ -21,9 +21,18 @@ const Service = () => {
             View More
             <i class="uil uil-arrow-right service_button-icon"></i>
           </span>
-          <div className="services_modal">
+          <div
+            className={
+              toggleState === 1
+                ? "services_modal active-model"
+                : "services_modal"
+            }
+          >
             <div className="services_modal_content">
-              <i class="uil uil-times service_modal-close"></i>
+              <i
+                onClick={() => toggletab(0)}
+                class="uil uil-times service_modal-close"
+              ></i>
               <h3 className="services_modal-title">
                 Frontend <br /> Development
               </h3>
@@ -65,13 +74,22 @@ const Service = () => {
               Backend <br /> Development
             </h4>
           </div>
-          <span className="services_button">
+          <span className="services_button" onClick={() => toggletab(2)}>
             View More
             <i class="uil uil-arrow-right service_button-icon"></i>
           </span>
-          <div className="services_modal">
+          <div
+            className={
+              toggleState === 2
+                ? "services_modal active-model"
+                : "services_modal"
+            }
+          >
             <div className="services_modal_content">
-              <i class="uil uil-times service_modal-close"></i>
+              <i
+                onClick={() => toggletab(0)}
+                class="uil uil-times service_modal-close"
+              ></i>
               <h3 className="services_modal-title">
                 Backend <br /> Developments
               </h3>

@@ -5,6 +5,10 @@ import Home from "./Home/Home";
 import About from "./components/About/About";
 import Skill from "./components/Skill/Skill";
 import Service from "./components/Services/Service";
+import Qualifications from "./components/Qualifications/Qualifications";
+import Testiomonials from "./components/Testimonials/Testiomonials";
+import Contact from "./components/Contact/Contact";
+
 const App = () => {
   return (
     <div>
@@ -14,6 +18,9 @@ const App = () => {
         <About />
         <Skill />
         <Service />
+        <Qualifications />
+        <Testiomonials />
+        <Contact />
       </main>
     </div>
   );
