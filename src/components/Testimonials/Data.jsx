@@ -9,21 +9,21 @@ export const Data = [
     id: 1,
     image: image1,
 
-    title: "John Doe",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel velit in purus facilisis tristique. Donec vel  suscipit malesuada.",
+    title: "jcannick",
+    text: "Very pleased with the service and also the additional help teaching me how to navigate though the website. I would highly recommend! Definitely 5 stars!",
   },
   {
     id: 2,
     image: image2,
 
-    title: "Siblish",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel velit in purus facilisis tristique. Donec vel  suscipit malesuada.",
+    title: "selam01",
+    text: "Siam is a superstar. He came to the rescue once again! He is very professional knowledgable  everything one would expect from an expert. ",
   },
   {
     id: 3,
     image: image3,
 
-    title: "Markeria",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel velit in purus facilisis tristique. Donec vel  suscipit malesuada.",
+    title: "leeanne1133",
+    text: "Very easy to work with, he understood what I was looking for in my project and nailed it! He was over the top helpful and I would strongly recommend him...",
   },
 ];

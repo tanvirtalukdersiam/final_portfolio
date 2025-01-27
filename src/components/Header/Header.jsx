@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "./Header.css";
+import logo from "../../assets/logo.svg";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div>
       <header className="header">
         <nav className="nav container">
-          <a href="index.html" className="nav_logo">
-            Siam
+          <a href="/" className="nav_logo">
+            <img className="logo" src={logo} alt="Frontend_developer" />
           </a>
 
           <div className={toggle ? "nav_menu show-menu" : " nav_menu"}>

@@ -1,9 +1,9 @@
 import React from "react";
-
+import { ReactTyped } from "react-typed";
 const Data = () => {
   return (
     <div className="home_data">
-      <h1 className="home_title">
+      <h2 className="home_title">
         {" "}
         Tanvir Siam
         <svg
@@ -56,10 +56,27 @@ const Data = () => {
             fill="#EBA352"
           ></path>
         </svg>
+      </h2>
+      <h1 className="home_subtitles">
+        {" "}
+        --
+        <ReactTyped
+          strings={[
+            "Frontend Developer",
+            "Backend Developer",
+            "Full Stack Developer",
+            "Mern Stack Developer",
+          ]}
+          typeSpeed={50}
+          backSpeed={30}
+          loop
+          showCursor={false}
+        />
       </h1>
-      <h2 className="home_subtitle">Full Stack Developer</h2>
+
+      {/* <h2 >Full Stack Developer</h2> */}
       <p className="home_desc">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas autem
+        Do you have any project or anything to discuss? let's Chat
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

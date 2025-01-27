@@ -1,6 +1,27 @@
 import React from "react";
 import "./Contact.css";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_g7p9zrs", "template_tp3i7ie", form.current, {
+        publicKey: "zaa0G9D2mTQ1BsA3k",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <section className="contact section" id="contact">
       <h3 className="section_title">Get in Touch</h3>
@@ -14,7 +35,11 @@ const Contact = () => {
               <h4 className="contact_card-title">Email</h4>
               <span className="contact_card_data">tanvir62003@gmail.com</span>
 
-              <a href="" className="contact_button">
+              <a
+                href="mailto:tanvir62003@gmail.com"
+                target="_blank"
+                className="contact_button"
+              >
                 Write Me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
@@ -24,7 +49,11 @@ const Contact = () => {
               <h4 className="contact_card-title">WhatsApp</h4>
               <span className="contact_card_data">01743860970</span>
 
-              <a href="" className="contact_button">
+              <a
+                href="https://wa.me/01743860970"
+                target="_blank"
+                className="contact_button"
+              >
                 Write Me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
@@ -35,7 +64,11 @@ const Contact = () => {
               <h4 className="contact_card-title">Messenger</h4>
               <span className="contact_card_data">Tanvir Siam</span>
 
-              <a href="" className="contact_button">
+              <a
+                href="https://www.facebook.com/tanvir.siam.739/"
+                className="contact_button"
+                target="_blank"
+              >
                 Write Me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
@@ -44,7 +77,7 @@ const Contact = () => {
         </div>
         <div className="contact_content">
           <h4 className="contact_title">Write me Your Project</h4>
-          <form className="contact_form">
+          <form ref={form} onSubmit={sendEmail} className="contact_form">
             <div className="contact_form-div">
               <label className="contact_form-tag">Name</label>
               <input
