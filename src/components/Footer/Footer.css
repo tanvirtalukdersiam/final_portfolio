@@ -26,7 +26,7 @@
 .footer_list {
   display: flex;
   justify-content: center;
-  column-gap: 1.5rem;
+  column-gap: 1.22rem;
   margin-bottom: var(--mb-2);
 }
 

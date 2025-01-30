@@ -7,12 +7,6 @@ const Footer = () => {
         <p className="footer_title">Siam</p>
         <ul className="footer_list">
           <li>
-            <a className="footer_link" href="#home">
-              Home
-            </a>
-          </li>
-
-          <li>
             <a className="footer_link" href="#projects">
               Projects
             </a>

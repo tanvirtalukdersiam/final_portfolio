@@ -18,7 +18,10 @@ const About = () => {
             user-friendly designs, I create solutions that meet both client and
             business needs.
           </p>
-          <a download="" className="button button--flex" href="cv">
+          <a
+            href="https://wa.me/+8801743860970"
+            className="button button--flex"
+          >
             Contact Me
             <svg
               class="button__icon "

@@ -44,13 +44,14 @@ const Qualifications = () => {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">
-                  Backend Mastery with node.js
-                </h3>
-                <span className="qualification_subtitle">One Year Academy</span>
+                <h3 className="qualification_title">Html,css3</h3>
+                <span className="qualification_subtitle">
+                  {" "}
+                  Moshiur Online Course
+                </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i>
-                  2024-present
+                  2022
                 </div>
               </div>
               <div>
@@ -65,8 +66,10 @@ const Qualifications = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Node.js Fundamentals</h3>
-                <span className="qualification_subtitle">One Year Academy</span>
+                <h3 className="qualification_title">JavaScript</h3>
+                <span className="qualification_subtitle">
+                  Learn with Sumit (LWS)
+                </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i>
                   2024
@@ -75,13 +78,11 @@ const Qualifications = () => {
             </div>
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Mern Stack Development</h3>
-                <span className="qualification_subtitle">
-                  Creative it Institute
-                </span>
+                <h3 className="qualification_title">Javascript</h3>
+                <span className="qualification_subtitle">Stack Learner</span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i>
-                  2023-24
+                  2022
                 </div>
               </div>
               <div>
@@ -97,23 +98,23 @@ const Qualifications = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Javascript</h3>
-                <span className="qualification_subtitle">Stack Learner</span>
+                <h3 className="qualification_title">Mern Stack Development</h3>
+                <span className="qualification_subtitle">
+                  Creative it Institute
+                </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i>
-                  2022
+                  2023-24
                 </div>
               </div>
             </div>
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Javascript</h3>
-                <span className="qualification_subtitle">
-                  Learn with sumit (LWS)
-                </span>
+                <h3 className="qualification_title">Node.js Fundamentals</h3>
+                <span className="qualification_subtitle">One Year Academy</span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i>
-                  2022
+                  2024
                 </div>
               </div>
               <div>
@@ -127,13 +128,12 @@ const Qualifications = () => {
                 <span className="qualification_rounder"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Html,css3</h3>
-                <span className="qualification_subtitle">
-                  Moshiur Online Course
-                </span>
+                <h3 className="qualification_title">
+                  Backend Mastery with node.js
+                </h3>
+                <span className="qualification_subtitle">2024-present</span>
                 <div className="qualification_calender">
                   <i className="uil uil-calender-alt"></i>
-                  2022
                 </div>
               </div>
             </div>
