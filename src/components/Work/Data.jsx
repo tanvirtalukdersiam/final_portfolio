@@ -30,7 +30,7 @@ export const projectData = [
   {
     id: 4,
     image: work2,
-    title: "Web Design",
+    title: "It Agency",
     category: "Full Stack",
     link: "https://futureitcare.com/",
   },
