@@ -96,6 +96,15 @@ const Contact = () => {
                 placeholder="Input Your Email"
               />
             </div>
+            <div className="contact_form-div">
+              <label className="contact_form-tag">Phone</label>
+              <input
+                type="tel"
+                name="number"
+                className="contact_form-input"
+                placeholder="Input Your Phone Number"
+              />
+            </div>
             <div className="contact_form-div contact_form-area">
               <label className="contact_form-tag">Project</label>
               <textarea
