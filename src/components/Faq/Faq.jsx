@@ -6,7 +6,7 @@ const Faq = () => {
   const content = [
     {
       title:
-        "What are your website design and development services, and how can they help my business ?",
+        "What are your website design and development services, & how can they help my business ?",
       description: `Our website design and development services are simple and designed to help your business succeed online. Here’s how we can help:
 
 1. Custom Website Design
