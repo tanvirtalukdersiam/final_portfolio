@@ -45,6 +45,13 @@
   display: inline-flex;
 }
 
+.footer_logo {
+  margin: auto;
+  width: 120px;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
 .footer_social-link:hover {
   background-color: var(--title-color-dark);
 }
