@@ -27,7 +27,11 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer_social">
-          <a href="" className="footer_social-link" target="_blank">
+          <a
+            href="https://www.instagram.com/tanvirtalukdersiam/"
+            className="footer_social-link"
+            target="_blank"
+          >
             <i class="uil uil-instagram"></i>
           </a>
 
@@ -38,13 +42,6 @@ const Footer = () => {
           >
             <i class="uil uil-facebook"></i>
           </a>
-          {/* <a
-            href="https://www.linkedin.com/in/md-tanvir-3b75282a8/"
-            className="footer_social-link"
-            target="_blank"
-          >
-            <i class="bx bxl-linkedin-square"></i>
-          </a> */}
         </div>
         <span className="footer_copy">
           Copyright © 2025 Tanvir Siam - All Right Reserved.

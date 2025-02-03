@@ -78,7 +78,11 @@ const Data = () => {
       <p className="home_desc">
         Do you have any project or anything to discuss? let's Chat
       </p>
-      <a href="https://wa.me/+8801743860970" className="button button--flex">
+      <a
+        target="_blank"
+        href="https://wa.me/+8801743860970"
+        className="button button--flex"
+      >
         Say Hello
         <svg
           class="button__icon "

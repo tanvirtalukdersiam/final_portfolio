@@ -19,6 +19,7 @@ const About = () => {
             business needs.
           </p>
           <a
+            target="_blank"
             href="https://wa.me/+8801743860970"
             className="button button--flex"
           >
