@@ -4,7 +4,7 @@ import "./ScrollMessage.css";
 const ScrollUp = () => {
   window.addEventListener("scroll", function () {
     const ScrollUp = document.querySelector(".scrollup");
-    if (this.scrollY >= 240) ScrollUp.classList.add("show-scroll");
+    if (this.scrollY >= 350) ScrollUp.classList.add("show-scroll");
     else ScrollUp.classList.remove("show-scroll");
   });
   return (
