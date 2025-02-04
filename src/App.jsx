@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Work from "./components/Work/Work";
 import Faq from "./components/Faq/Faq";
+import ScrollUp from "./components/ScrollMessage/ScrollUp";
 
 const App = () => {
   return (
@@ -21,13 +22,14 @@ const App = () => {
         <About />
         <Skill />
         <Service />
-        <Faq />
         <Qualifications />
         <Work />
         <Testiomonials />
         <Contact />
-        <Footer />
+        <Faq />
       </main>
+      <Footer />
+      <ScrollUp />
     </div>
   );
 };
