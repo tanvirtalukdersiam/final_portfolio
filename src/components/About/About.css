@@ -5,7 +5,7 @@
 }
 
 .about_img {
-  width: 350px;
+  width: 360px;
   border-radius: 1.5rem;
   justify-self: center;
 }
@@ -47,7 +47,7 @@
     row-gap: 2.5rem;
   }
   .about_img {
-    width: 220px;
+    width: 260px;
   }
   .about_box {
     padding: 0.75rem 0.5rem;
@@ -71,9 +71,15 @@
   .about_desc {
     padding: 0;
   }
+  .about_img {
+    width: 250px;
+  }
 }
 @media screen and (max-width: 350px) {
   .about_info {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .about_img {
+    width: 240px;
   }
 }

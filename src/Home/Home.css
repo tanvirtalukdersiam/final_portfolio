@@ -30,18 +30,9 @@
 
   /* padding-left: 5.4rem; */
   font-weight: var(--font-normal);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 8px;
 }
 
-/* .home_subtitle::before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 70px;
-  left: 0;
-  top: 1rem;
-  background-color: var(--text-color);
-} */
 .home_desc {
   max-width: 400px;
   margin-bottom: 24px;
@@ -167,7 +158,10 @@ home_scroll-arrow {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
+  .home_content {
+    padding-top: 5rem;
+  }
   .home_img {
     height: 180px;
     width: 180px;

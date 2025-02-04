@@ -1,7 +1,7 @@
 .service_container {
-  grid-template-columns: repeat(3, 270px);
+  grid-template-columns: repeat(4, 200px);
   justify-content: center;
-  column-gap: 1.8rem;
+  column-gap: 1.7rem;
   padding-bottom: 5.5rem;
 }
 
@@ -9,7 +9,7 @@
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--container-color);
-  padding: 5rem 0 2rem 2.5rem;
+  padding: 4rem 1.7rem 2rem 2.1rem;
   border-radius: 4px;
 }
 .service_icon {
@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 992px) {
   .service_container {
-    grid-template-columns: repeat(2fr, 2100px);
+    grid-template-columns: repeat(3, 2fr);
   }
 }
 @media screen and (max-width: 768px) {

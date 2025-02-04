@@ -134,7 +134,7 @@ const Service = () => {
             {/* service_icon */}
             <i class="bx bx-layer service_icon"></i>
             <h4 className="services_title">
-              Full/Mern Stack <br /> Development
+              Full Stack <br /> Development
             </h4>
           </div>
           <span className="services_button" onClick={() => toggletab(3)}>
@@ -154,7 +154,68 @@ const Service = () => {
                 class="uil uil-times service_modal-close"
               ></i>
               <h3 className="services_modal-title">
-                Full/Mern <br /> Developments
+                Full Stack <br /> Developments
+              </h3>
+              <p className="services_modal-desc">
+                Service with more then 2.1 years experience.Providing quality
+                work to clients and companies
+              </p>
+              <ul className="services_model-servicess grid">
+                <li className="services_model-services">
+                  <i class="uil uil-check-circle services_model-icon"></i>
+                  <p className="services_model-info">
+                    Full-Stack Web Application Development
+                  </p>
+                </li>
+                <li className="services_model-services">
+                  <i class="uil uil-check-circle services_model-icon"></i>
+                  <p className="services_model-info">
+                    API Development & Integration
+                  </p>
+                </li>
+                <li className="services_model-services">
+                  <i class="uil uil-check-circle services_model-icon"></i>
+                  <p className="services_model-info">
+                    Database & Backend Optimization
+                  </p>
+                </li>
+                <li className="services_model-services">
+                  <i class="uil uil-check-circle services_model-icon"></i>
+                  <p className="services_model-info">
+                    Deployment & DevOps Solutions
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="services_content">
+          <div>
+            {/* service_icon */}
+
+            <i class="bx bxs-coin-stack service_icon"></i>
+            <h4 className="services_title">
+              Mern Stack <br /> Development
+            </h4>
+          </div>
+          <span className="services_button" onClick={() => toggletab(4)}>
+            View More
+            <i class="uil uil-arrow-right service_button-icon"></i>
+          </span>
+          <div
+            className={
+              toggleState === 4
+                ? "services_modal active-model"
+                : "services_modal"
+            }
+          >
+            <div className="services_modal_content">
+              <i
+                onClick={() => toggletab(0)}
+                class="uil uil-times service_modal-close"
+              ></i>
+              <h3 className="services_modal-title">
+                Mern Stack <br /> Developments
               </h3>
               <p className="services_modal-desc">
                 Service with more then 2.1 years experience.Providing quality
