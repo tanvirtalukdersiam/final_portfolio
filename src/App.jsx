@@ -12,7 +12,6 @@ import Footer from "./components/Footer/Footer";
 import Work from "./components/Work/Work";
 import Faq from "./components/Faq/Faq";
 import ScrollUp from "./components/ScrollMessage/ScrollUp";
-
 const App = () => {
   return (
     <div>

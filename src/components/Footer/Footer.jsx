@@ -5,9 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_container container">
-        <div className="footer_logo">
-          <img src={logo} alt="Frontend_developer" />
-        </div>
+        <div className="footer_logo">Tanvir</div>
 
         <ul className="footer_list">
           <li>
@@ -36,7 +34,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.facebook.com/tanvir.siam.739/"
+            href="https://www.facebook.com/tanvirtalukdersiam/"
             className="footer_social-link"
             target="_blank"
           >

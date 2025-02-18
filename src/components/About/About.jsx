@@ -8,7 +8,11 @@ const About = () => {
       <h3 className="section_title">About Me</h3>
       <span className="section_subtitle">My Introduction</span>
       <div className="about_container container grid">
-        <img src={AboutImage} className="about_img" alt="about_img" />
+        <img
+          src={AboutImage}
+          className="about_img"
+          alt="Experienced Full Stack Developer offering Web Development Solutions using JavaScript, React, Node.js, and MongoDB"
+        />
         <div className="about_data">
           <Info />
           <p className="about_desc">

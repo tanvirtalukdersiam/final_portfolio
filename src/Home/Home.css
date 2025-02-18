@@ -48,7 +48,8 @@
 }
 
 .home_img {
-  background: url(../assets/profile1.jpg);
+  background: url(../assets/mern-stack-development.jpg);
+  content: attr("");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

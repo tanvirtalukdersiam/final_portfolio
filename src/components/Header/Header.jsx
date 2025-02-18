@@ -8,7 +8,7 @@ const Header = () => {
       <header className="header">
         <nav className="nav container">
           <a href="/" className="nav_logo">
-            <img className="logo" src={logo} alt="Frontend_developer" />
+            Tanvir
           </a>
 
           <div className={toggle ? "nav_menu show-menu" : " nav_menu"}>

@@ -18,7 +18,7 @@ const Social = () => {
         <i class="uil uil-github"></i>
       </a>
       <a
-        href="https://www.facebook.com/tanvir.siam.739/"
+        href="https://www.facebook.com/tanvirtalukdersiam/"
         className="home_social-icon"
         target="_blank"
       >

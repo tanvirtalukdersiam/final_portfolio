@@ -18,6 +18,9 @@
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
+.nav_logo {
+  font-size: 24px;
+}
 
 .logo {
   height: 125px;
