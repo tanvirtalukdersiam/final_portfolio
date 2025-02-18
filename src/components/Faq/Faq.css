@@ -34,8 +34,9 @@
   border-bottom-left-radius: 2px;
 }
 
-.icon {
-  font-size: 16px;
+.icon-f {
+  color: darkgray;
+  font-size: 28px;
 }
 .opentab {
   padding: 16px;

@@ -285,7 +285,7 @@ Versatility and Efficiency: Since full-stack developers are proficient in variou
           <header className="hea" onClick={() => accodionToggole(index)}>
             {item.title}
 
-            <i class="bx bx-chevron-down icon"> </i>
+            <i class="bx bx-chevron-down icon-f"> </i>
           </header>
           <p className={`description ${accodion === index ? "opentab" : ""}`}>
             {item.description}
