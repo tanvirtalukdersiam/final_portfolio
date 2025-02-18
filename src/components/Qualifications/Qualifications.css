@@ -91,6 +91,9 @@
     margin-right: var(--mb-1-5);
     padding-bottom: 2.5rem;
   }
+  .qualification_icon {
+    z-index: 10px;
+  }
 }
 @media screen and (max-width: 576px) {
   .qualification_sections {
