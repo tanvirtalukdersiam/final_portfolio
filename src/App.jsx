@@ -14,7 +14,7 @@ import Faq from "./components/Faq/Faq";
 import ScrollUp from "./components/ScrollMessage/ScrollUp";
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       <main className="main">
         <Home />
