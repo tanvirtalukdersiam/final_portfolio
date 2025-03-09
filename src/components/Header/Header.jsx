@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import "./Header.css";
+import LogoImg from "../../assets/full-stack-developer-logo.png";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div>
       <header className="header">
-        <nav className="nav container">
+        <nav className="nav container grid">
           <a href="/" className="nav_logo">
-            Tanvir
+            <img
+              className="NLogo"
+              src={LogoImg}
+              alt="Full Stack Developer Icon Representing Frontend and Backend Development"
+            />
           </a>
 
           <div className={toggle ? "nav_menu show-menu" : " nav_menu"}>

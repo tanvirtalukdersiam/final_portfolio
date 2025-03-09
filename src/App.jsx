@@ -19,9 +19,7 @@ const App = () => {
       <main className="main">
         <Home />
         <About />
-        <Skill />
         <Service />
-        <Qualifications />
         <Work />
         <Testiomonials />
         <Contact />
