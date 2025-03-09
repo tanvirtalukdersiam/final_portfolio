@@ -26,7 +26,11 @@ const Testiomonials = () => {
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 48,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 45,
           },
         }}
         modules={[Pagination]}
@@ -38,7 +42,7 @@ const Testiomonials = () => {
               alt="testimonial_img"
               className="testimonial_img"
             />
-            <h4 className="testimonial_title">{title}</h4>
+            <h5 className="testimonial_title">{title}</h5>
             <p className="testimonial_text">{text}</p>
           </SwiperSlide>
         ))}
