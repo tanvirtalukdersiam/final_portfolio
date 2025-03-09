@@ -1,7 +1,7 @@
 .contact_container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
-  column-gap: 6rem;
+  column-gap: 9rem;
   padding-bottom: 3rem;
 }
 
@@ -11,7 +11,7 @@
   grid-template-columns: 300px;
 }
 .contact_form {
-  width: 360px;
+  width: 520px;
 }
 
 .contact_title {
@@ -99,9 +99,9 @@
   resize: none;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .contact_container {
-    column-gap: 3rem;
+    column-gap: 5rem;
   }
 }
 

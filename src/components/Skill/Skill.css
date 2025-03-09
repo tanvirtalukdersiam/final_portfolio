@@ -36,7 +36,7 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .skill_container {
     grid-template-columns: max-content;
     row-gap: 2rem;
