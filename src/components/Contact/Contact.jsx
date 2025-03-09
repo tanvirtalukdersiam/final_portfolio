@@ -24,15 +24,15 @@ const Contact = () => {
   };
   return (
     <section className="contact section" id="contact">
-      <h3 className="section_title">Get in Touch</h3>
+      <h6 className="section_title">Get in Touch</h6>
       <span className="section_subtitle">Contact Me</span>
       <div className="contact_container container grid">
         <div className="contact_content">
-          <h4 className="contact_title">Talk to me</h4>
+          <h5 className="contact_title">Talk to me</h5>
           <div className="contact_info">
             <div className="contact_card">
               <i className="bx bx-envelope contact_card-icon"></i>
-              <h4 className="contact_card-title">Email</h4>
+              <h6 className="contact_card-title">Email</h6>
               <span className="contact_card_data">tanvir62003@gmail.com</span>
 
               <a
@@ -46,7 +46,7 @@ const Contact = () => {
             </div>
             <div className="contact_card">
               <i className="bx bxl-whatsapp contact_card-icon"></i>
-              <h4 className="contact_card-title">WhatsApp</h4>
+              <h6 className="contact_card-title">WhatsApp</h6>
               <span className="contact_card_data">01743860970</span>
 
               <a
@@ -61,7 +61,7 @@ const Contact = () => {
             <div className="contact_card">
               <i class="bx "></i>
               <i className="bx bxl-messenger contact_card-icon"></i>
-              <h4 className="contact_card-title">Messenger</h4>
+              <h6 className="contact_card-title">Messenger</h6>
               <span className="contact_card_data">Tanvir Siam</span>
 
               <a
@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact_content">
-          <h4 className="contact_title">Write me Your Project</h4>
+          <h6 className="contact_title">Write me Your Project</h6>
           <form ref={form} onSubmit={sendEmail} className="contact_form">
             <div className="contact_form-div">
               <label className="contact_form-tag">Name</label>

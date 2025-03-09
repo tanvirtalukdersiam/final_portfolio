@@ -1,6 +1,6 @@
 .work_container {
-  grid-template-columns: repeat(2, max-content);
-  gap: 2.2rem;
+  grid-template-columns: repeat(3, max-content);
+  gap: 2rem;
   justify-content: center;
 }
 
@@ -62,8 +62,9 @@
   color: var(--container-color);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .work_container {
+    grid-template-columns: repeat(2, max-content);
     gap: 1.25rem;
   }
   .work_card {

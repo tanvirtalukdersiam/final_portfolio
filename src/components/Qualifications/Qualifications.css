@@ -78,7 +78,7 @@
   transform: translate(6px, -7px);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .qualification_container {
     margin-left: auto;
     margin-right: auto;
@@ -90,9 +90,6 @@
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
     padding-bottom: 2.5rem;
-  }
-  .qualification_icon {
-    z-index: 10px;
   }
 }
 @media screen and (max-width: 576px) {

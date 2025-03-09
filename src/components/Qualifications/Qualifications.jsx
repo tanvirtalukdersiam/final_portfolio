@@ -65,7 +65,7 @@ const Qualifications = () => {
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
               </div>
-              <div>
+              <div className="border">
                 <h3 className="qualification_title">JavaScript</h3>
                 <span className="qualification_subtitle">
                   Learn with Sumit (LWS)

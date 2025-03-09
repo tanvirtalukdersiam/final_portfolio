@@ -13,9 +13,9 @@ const Service = () => {
         <div className="services_content">
           <div>
             <i class="bx bx-window-alt service_icon"></i>
-            <h4 className="services_title">
+            <h2 className="services_title">
               Frontend <br /> Development
-            </h4>
+            </h2>
           </div>
           <span className="services_button" onClick={() => toggletab(1)}>
             View More
@@ -133,9 +133,9 @@ const Service = () => {
           <div>
             {/* service_icon */}
             <i class="bx bx-layer service_icon"></i>
-            <h4 className="services_title">
+            <h3 className="services_title">
               Full Stack <br /> Development
-            </h4>
+            </h3>
           </div>
           <span className="services_button" onClick={() => toggletab(3)}>
             View More
@@ -194,9 +194,9 @@ const Service = () => {
             {/* service_icon */}
 
             <i class="bx bxs-coin-stack service_icon"></i>
-            <h4 className="services_title">
+            <h3 className="services_title">
               Mern Stack <br /> Development
-            </h4>
+            </h3>
           </div>
           <span className="services_button" onClick={() => toggletab(4)}>
             View More

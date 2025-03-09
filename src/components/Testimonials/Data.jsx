@@ -3,6 +3,7 @@ import React from "react";
 import image1 from "../../assets/testimonial1.png";
 import image2 from "../../assets/testimonial2.png";
 import image3 from "../../assets/testimonial3.png";
+import image4 from "../../assets/testimonial4.png";
 
 export const Data = [
   {
@@ -17,13 +18,20 @@ export const Data = [
     image: image2,
 
     title: "selam01",
-    text: "Siam is a superstar. He came to the rescue once again! He is very professional knowledgable  everything one would expect from an expert. ",
+    text: "They definitely keep in touch with you throughout the whole process which gives you a peace of mine and I will be back to build another online business.",
   },
   {
     id: 3,
     image: image3,
 
     title: "leeanne1133",
+    text: "Very easy to work with, he understood what I was looking for in my project and nailed it! He was over the top helpful and I would strongly recommend him...",
+  },
+  {
+    id: 4,
+    image: image4,
+
+    title: "leeanne",
     text: "Very easy to work with, he understood what I was looking for in my project and nailed it! He was over the top helpful and I would strongly recommend him...",
   },
 ];
